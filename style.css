@@ -282,3 +282,215 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  .nav-ul-li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .insumos-img {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .img-px-insumo {
+    width: 70%;
+    height: auto;
+  }
+
+  .periferico-img {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .img-px {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .emain {
+    grid-template-areas: "main aside";
+    /* "main aside"; */
+    grid-template-columns: 1fr 1fr;
+  }
+  .emain-section div {
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-inicio {
+    width: 50%;
+    height: auto;
+  }
+  aside .side {
+    text-align: center;
+  }
+
+  .link {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .iframe-maps {
+    width: 50%;
+    height: 50%;
+  }
+
+  .iframe-1 {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0;
+  }
+  /* page servicio------------------------------------------------------ */
+
+  .img-serv-tec {
+    width: 400px;
+  }
+
+  .video-pc {
+    width: 350px;
+    height: 710px;
+    margin-bottom: 10px;
+  }
+
+  .emain-ul li {
+    text-align: center;
+  }
+
+  /* page insumos */
+  .insumos {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .img-px-insumo {
+    width: 250px;
+  }
+  /* page periferico */
+  .periferico {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .img-px {
+    width: 250px;
+  }
+
+  /* page contacto */
+  .formulario {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form-2 {
+    padding: 70px;
+  }
+
+  /* -------------------grid inicio y service */
+  .grid-inicio {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "main aside"
+      "main aside"
+      "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  main {
+    grid-area: main;
+    text-align: center;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .cont-iframe {
+    align-items: center;
+  }
+  .cont-iframe iframe {
+    text-align: center;
+    width: 40vw;
+    /* height: 50%; */
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  .grid-service {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "main aside"
+      "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  main {
+    grid-area: main;
+    text-align: center;
+  }
+
+  aside {
+    grid-area: aside;
+    text-align: center;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+}
