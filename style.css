@@ -1,0 +1,284 @@
+/* font-family: 'Noto Sans Display', sans-serif; */
+/*  font-family: 'Roboto', sans-serif;*/
+
+html {
+  height: 100vh;
+}
+body {
+  background-color: #f0f8ff;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440pc;
+  margin: auto;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* h1 */
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 95px;
+  text-align: center;
+}
+
+/* h2 */
+.sub-title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/* h4 */
+.title-h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/* nav */
+.nav {
+  margin: 0;
+  text-align: center;
+  padding: 10px 10px 0px px;
+}
+
+.nav-ul {
+  padding: 0 0;
+}
+
+.nav-ul-li {
+  display: block;
+  text-align: center;
+  padding: 35px;
+}
+
+.nav-ul-li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+/* main iframe - img */
+.cont-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.cont-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-inicio {
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+.footer {
+  background-color: #b1b5b8fa;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* ico */
+.ico-ul {
+  display: flex;
+  justify-content: center;
+  padding: 0 0;
+}
+
+.ico-ul-li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+/* contacto-horario */
+.info p {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.info-hora p {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+/* medio de pago */
+.pay {
+  text-align: center;
+}
+
+.pay p {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.pay-img {
+  height: 50%;
+  align-items: center;
+  margin: 0 0;
+}
+
+/* page producto */
+
+.img-peri {
+  width: 100%;
+  height: auto;
+}
+
+/* page contacto */
+.form p {
+  text-align: center;
+}
+
+.formulario {
+  display: block;
+  text-align: center;
+}
+
+.input {
+  width: 75%;
+  margin-bottom: 30px;
+  border: solid #d8d2d2;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-boton {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  border: solid #d8d2d2;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+/* page servicio tecnico */
+.emain-ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.img-ser-tec {
+  width: 100%;
+  height: auto;
+}
+
+.video-pc {
+  width: 100%;
+  height: auto;
+}
+
+/* page periferico */
+
+.periferico {
+  flex-direction: column;
+  margin: 25px;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.periferico-img {
+  padding: 5px;
+  border: solid #000000;
+  margin: 5px 2px;
+}
+
+.boton-consulta {
+  display: inline-block;
+  background-color: #e41919;
+  font-size: 25px;
+  width: 150px;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-px {
+  width: 100%;
+  height: auto;
+}
+
+/* page insumos */
+.insumos {
+  flex-direction: column;
+  margin: 25px;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.insumos.img {
+  padding: 5px;
+  border: solid #000000;
+  margin: 5px 2px;
+}
+
+.img-px-insumo {
+  width: 100%;
+  height: auto;
+}
+
+/* page como llegar */
+.iframe-maps {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
