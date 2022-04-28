@@ -291,6 +291,11 @@ footer {
     padding: 15px;
   }
 
+  .nav-ul-li a:hover {
+    background: #a3a3c0;
+    transition: 0.3s;
+  }
+
   .footer {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -327,6 +332,10 @@ footer {
   .emain-section div {
     margin: 0;
     padding: 0;
+  }
+  .nav-ul-li a:hover {
+    background: #8b8b97;
+    transition: 0.3s;
   }
 
   .img-inicio {
